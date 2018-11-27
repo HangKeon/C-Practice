@@ -28,7 +28,7 @@ public:
 	}
 };
 
-class CONTAC600
+class CONTAC600														//Ä¸½¶È­°¡ µÈ Å¬·¡½º
 {
 private:
 	SinivelCap sin;

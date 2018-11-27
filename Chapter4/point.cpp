@@ -2,7 +2,15 @@
 #include "point.h"
 using namespace std;
 
-bool point::InitMembers(int xpos, int ypos)
+//point.cpp
+//Rectangle.cpp
+//RectangleFaultFind.cpp
+//point.h
+//Rectangle.h
+//위의 것들은 서로 한꺼번에 실행
+
+
+/*bool point::InitMembers(int xpos, int ypos)
 {
 	if (xpos < 0 || ypos < 0)										//범위 벗어난 경우 예외처리
 	{
@@ -13,6 +21,11 @@ bool point::InitMembers(int xpos, int ypos)
 	x = xpos;
 	y = ypos;
 	return true;
+}*/
+point::point(const int& xpos, const int& ypos)
+{
+	x = xpos;
+	y = ypos;
 }
 
 int point::GetX() const
